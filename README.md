@@ -9,11 +9,11 @@ The total loss is then calculated as **L = SL + lambda * CL**, where lambda is a
 Note that VGG-16 with average pooling was used so that the image is not downsampled. Also the BFGS optimizer from `scipy` was utilized.   
 
 ## Requirements
-Keras==2.0.8
-tensorflow-gpu==1.3.0
-Pillow==4.1.1
-scipy==0.19.0
-numpy==1.12.1
+Keras==2.0.8 <br>
+tensorflow-gpu==1.3.0 <br>
+Pillow==4.1.1 <br>
+scipy==0.19.0 <br>
+numpy==1.12.1 <br>
 
 ## Instructions
 - Specify the source and style image paths, and other configurations in `config.py`
